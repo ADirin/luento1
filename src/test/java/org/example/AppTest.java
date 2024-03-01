@@ -17,4 +17,10 @@ public class AppTest
         assertEquals (app.addMe(2,3), 5);
     }
 
+    @Test
+    public void subractMeTest(){
+
+        assertEquals (app.subtractMe(3,2), 1);
+    }
+
 }
